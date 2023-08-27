@@ -1,0 +1,252 @@
+/******fieldset stylsheet******/
+.inp{
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #d7d7d7,
+    -5px -5px 10px #ffffff;
+    border-image: none; 
+}
+.inp:hover{
+    background: #f5f5f56a; 
+}
+textarea{
+  border: 0px ;
+  border-radius: 10px;
+  padding: 8px;
+}
+fieldset{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    width: 500px;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+    background: #f5f5f5 !important;
+    border: none;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #d7d7d7,
+    -5px -5px 10px #ffffff;
+    border-image: none;
+    color: #030303; 
+    cursor: pointer;
+}
+.fieldset:hover{
+    background: #ffffff45; 
+}
+#messageSize,#messageLayer{
+  color: #ff0000;
+  margin-top: -30px;
+  text-align: left;
+}
+.Wpress{
+    outline: none;
+    appearance: none;
+    border-radius: 10px;
+    background: #503d05;
+    color: #ffffff;
+    border: none;
+    width: 120px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 26px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    box-shadow:  5px 5px 10px #d7d7d7,
+                -5px -5px 10px #ffffff;
+    
+}
+.Wpress:hover{
+    color: #503d0597; 
+    background: #ffffff;
+}
+.Wpress:focus{
+  color: green;
+}
+#clearBtn:focus{
+  color: #ff0000;
+}
+
+    
+/* Customize the label (the contained) */
+.contained,.inpjs {
+    /*display: block;
+    position: relative;
+    padding-left: 35px;*/
+    margin-bottom: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .contain {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  /* Hide the browser's default checkbox */
+  contained input {
+    position: absolute;
+    /*opacity: ;*/
+    cursor: pointer;
+    height: 40;
+    width: 40;
+  }
+  contain input{
+    position: absolute;
+    /*opacity: ;*/
+    cursor: pointer;
+    height: 40;
+    width: 40;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  contained:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  contain:hover input ~ .checkmark{
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  contained input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  contain input:checked ~ .checkmark{
+    background-color: #2196F3;
+  } 
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  contained input:checked ~ .checkmark:after {
+    display: block;
+  }
+  contain input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  contained .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* Customize the label (the contained) */
+contained, .contain {
+    /*display: block;*/
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  contained input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  contain input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  contained:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .contain:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  contained input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  contain input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  contained input:checked ~ .checkmark:after {
+    display: block;
+  }
+  contain input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  contained .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+  contain .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }

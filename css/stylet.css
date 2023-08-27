@@ -1,0 +1,183 @@
+/*html{
+    height: auto;
+}*/
+body{
+    background:
+     url(Wallpaper3.svg) fixed;/* complete the download spelling */
+     background-size: cover;
+    font-family:var(--bs-font-sans-serif);
+    /*position: relative;*/
+ }
+.main,.container{
+    justify-content: center;
+    width: 800px;
+    height: 555px;
+    margin: 5% auto 5%;
+    /*margin-top: 5%;*/
+    position: relative;
+    /*margin-bottom: 10%;*/
+    /*margin-right: auto;
+    margin-left: auto;*/
+}
+.t-right{
+    justify-content: center;
+    padding-top: 5%;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    background: #E88F2A !important;
+    border: none;
+    border-radius: 10px;
+    box-shad:  5px 5px 10px #d7d7d7,
+               -5px -5px 10px #ffffff;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.container{
+    /*width: 100%;*/
+    height: 100%;
+}
+.left{
+    width: 400px;
+    height: 555px;
+    background-image: url(logo1c1.png) ;
+    
+    /*float: left;*/
+    border-radius: 10px;
+    /*position: relative;*/
+    
+}
+.ymfi{
+    color: #ffffff;
+    font-size: small;
+}
+#main video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.social{
+    margin: 20px 0 20px;
+    font-size: 150%;
+    /*line-height: 32px;
+    border-top: 1px solid #ccc;*/
+    padding-top: 5px;
+    width: 100%;
+}
+.social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+.apple{
+    background: #ffffff;
+    color: #000;
+}
+.facebook{
+    background:#3b5998 ;
+    color: #ffffff;
+}
+.google{
+    background: #ffffff;
+    color:#db3236;
+    
+}
+.apple:hover{
+    cursor:pointer;
+    color: #ffffff;
+    background: #000;
+}
+.facebook:hover{
+    cursor:pointer;
+    background: #ffffff;
+    color: #3b5998;
+}
+.google:hover{
+    cursor:pointer;
+    color:#ffffff;
+    background: #db3236;
+}
+.text-white{
+    color: rgb(0, 0, 0);
+    margin-top: auto;
+    text-transform: uppercase !important;
+    text-align: center;
+    font-family: ui-san-serif;
+}
+.text-primarys{
+    color: rgb(0, 0, 0);
+}
+h2,h5,label{
+    color: white; 
+}
+.form-control{
+    outline: none;
+}
+.apples,
+.applesp{
+    color: #000000;
+    width: 75%;
+   height: 45px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.apples:hover{
+    background: #f5f5f5;
+    
+}
+.applesp:hover{
+    background: #f5f5f5;
+    
+}
+.applesp:placeholder-shown{
+    color: #000000;
+}
+.wpress{
+    outline: none;
+    appearance: none;
+    border-radius: 10px;
+    background: #503d05;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.wpress:hover{
+    background: #ffffff;
+    color: #503d0597;
+}
+
+h1{
+    color: #503d05;
+    text-transform: uppercase !important;
+}
+a{ 
+    text-decoration: none !important;
+}
+a:hover{
+      cursor: pointer;
+      text-decoration: underline !important;
+}
+.text-center{
+    color: #000;
+}
+.cbox{
+  margin-bottom: 0px !important;
+  color: #ffffff;  
+}

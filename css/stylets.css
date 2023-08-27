@@ -1,0 +1,359 @@
+/*html{
+    height: 800px;
+}*/
+body{
+    background:url(/img/Wallpaper3.svg) fixed; 
+   background-size: cover;
+   font-family:var(--bs-font-sans-serif);
+}
+.main{
+    justify-content: center;
+    /*width: 800px;
+    height: 555px;
+    margin: 5% auto 5%;*/
+    position: relative;
+}
+.t-right{
+    justify-content: center;
+    margin: 0;
+    max-width: 400px !important;
+    height: 100%;
+    text-align: center !important;
+    background: #E88F2A !important;
+    border: none;
+    border-radius: 10px;
+    box-shadow:  20px 20px 50px rgb(0,0,0,0.5),
+}
+.item{
+    border: 2px solid #fff;
+    width: 50%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    float: right;       
+}
+/* Style the form */
+/*#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }*/
+  input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  /* Mark input boxes that gets an error on validation: */
+input.invalid {
+  border: 2px solid rgba(255, 0, 0, 0.515) !important;
+  border-radius: 10px !important;
+  }
+  .input>.form-control{
+    width: 1%;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+    text-align: left;
+    color: white;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #04AA6D;
+  }
+  
+/*.main{width: 800px;height: 555px;}*/
+/*fieldset{
+    background: #E88F2A;
+    border-radius: 10px;
+}*/
+
+/*.left{
+    width: 400px;
+    height: 555px;
+    background-image: url(logo1c1.mp4) ; 
+    border-radius: 10px;
+}   */ 
+.myVideo{
+    width: auto;
+    
+}
+#main video{
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    object-fit: cover;
+  }
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    /*width: 200px;*/
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: none;
+    color: #000000;
+    cursor: hover;
+    z-index: 1;
+    
+  }
+  #myBtn:hover {
+    background: #fff;
+    color: black;
+  }
+#myBtn :disabled{
+    background: #000;
+    color: #fff;
+    cursor: not-allowed;
+}  
+.wpress{
+    outline: none;
+    appearance: none;
+    border-radius: 10px;
+    background: #503d05;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.wpress:hover{
+    background: #ffffff;
+    color: #503d0597;
+}
+.wpress:disabled{
+    background: #503d0565;
+    color: #ffffff;
+}
+
+.apples,
+.pass{
+    background:#ffffff !important;
+    /*width: 250px;
+    height: 30px;*/
+    border-radius: 100px;
+    border: none !important;
+    outline: none !important;
+    margin-bottom: 1px;
+}
+.pass:hover{
+    background: #f5f5f5;
+    color: #503d0597;
+}
+.apples:hover{
+    color: #000000;
+}
+input[type=submit] {
+    background-color: #503d05;
+    color: white; 
+  }
+  /* The message box is shown when the user clicks on the password field */
+/*.message,.message1 {
+  display: none;
+  bac
+  position: relative;
+}*/
+
+/*#message {
+  padding: 10px 35px;
+  font-size: 18px;
+}*/
+
+/* Add a green text color and a checkmark when the requirements are right */
+/*.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10004;";
+}*/
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+/*.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: none;
+}*/
+.eye{
+    color: #000;
+}
+.TEcheckbox{
+    /*margin-left: -10%;*/
+    justify-content: center;
+    color: #db3236;
+}
+.checkbox{
+    background: #fff;
+    border: 0px;
+    /*height: 37px !important;*/
+    outline: none;
+    width: 46px;
+    /*color: #ffffff;*/
+    padding: 6px;
+    /*padding-bottom: 4px !important;*/
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.checkbox:hover{
+    color: #fff;
+    background: #000000a0;
+}
+.cbox{
+    margin-bottom: 0 !important;
+}
+.social{
+    margin: 20px 0 20px;
+    font-size: 150%;
+    /*line-height: 32px;
+    border-top: 1px solid #ccc;*/
+    padding-top: 5px;
+    width: 100%;
+}
+.social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+.apple{
+    background: #ffffff;
+    color: #000;
+    transition: 0s;
+}
+.facebook{
+    background:#3b5998 ;
+    color: #ffffff;
+    transition: 0s;
+}
+.google{
+    background: #ffffff;
+    color: #db3236;
+    transition: 0s;
+}
+.apple:hover{
+    cursor:pointer;
+    color: #ffffff;
+    background: #000;
+}
+.facebook:hover{
+    cursor:pointer;
+    background: #ffffff;
+    color: #3b5998;
+}
+.google:hover{
+    cursor:pointer;
+    color:#ffffff;
+    background: #db3236;
+}
+.birthday{
+    background: #ffffff00;
+    color: #000000;
+    transition: 0s;
+}
+.birthday:hover{
+    cursor:pointer;
+    color: #ffffff;
+    background: #00000000;
+}
+a{
+  color: white !important;  
+  text-decoration: none !important;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+.wpress{
+    margin-top: 15px;
+}
+.text-white{
+    color: white;
+    margin-top: 0px;
+    text-transform: uppercase !important;
+    text-align: center;
+    font-family: ui-san-serif;
+}
+.text-primary{
+    color: white;
+}
+h2,h6,label,p{
+    color: white; 
+}
+.ymfi{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    size: 10px;
+}
+@media screen and (min-width: 1440px) {
+  #paad{
+    padding-top: 8% !important;
+  }
+  .siize{
+    margin-left: -160px !important;
+    height: 647.5px !important;
+  }
+  .row{
+    justify-content: center;
+  }
+  .t-right{
+    margin: auto;
+    background: none !important;
+    backdrop-filter: blur(50px);
+    box-shadow:  20px 20px 50px rgb(0,0,0,0.5),
+  }
+}

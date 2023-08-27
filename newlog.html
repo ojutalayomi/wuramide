@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign Up</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Wuramide Cakes" name="keywords">
+        <meta content="Wuramide Cakes" name="description">
+        <link rel="stylesheet" href="css/stylets.css" >
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    </head>
+    <body >
+        <div class="container-fluid pt-5" id="paad">
+        <div class="container">
+        <div class="row gx-5">
+            <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 400px; margin-bottom: 0px !important; border-radius: 10px !important;">
+                <div class="position-relative h-100">
+                    <video src="img/logo1c1.mp4" class="position-absolute w-100 h-100 myVideo" id="myVideo" style="border-radius: 10px; object-fit: cover; max-height: 95% !important;" muted autoplay loop="">
+                    </video>
+                    <div style="display: flex;">
+                    <button id="myBtn" onclick="myFunction()">Pause</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 pb-5 siize">
+                <fieldset class="container py-5 t-right">
+                    <div class="" >  
+                        <h1 class="text-white text-uppercase" >
+                            <i class="birthday">
+                                <i class="fa fa-birthday-cake "></i>
+                            </i>
+                            Wuramide 
+                            <h4 class="text-white text-uppercase" >
+                                Cakes
+                            </h4>
+                        </h1>
+                            <h6>Continue with us today</h6>
+                            <p>Log in to your account with us today to enjoy<br> our services we have to offer.</p>
+                            <div class="social">
+                                <span class="">
+                                    <button class="apple"><i class="fa fa-apple"></i></button>
+                                    <button class="facebook"><i class="fa fa-facebook-f"></i></button> 
+                                    <button class="google"><i class="fa fa-google"></i></button>     
+                                </span>
+                            </div>
+                    </div>
+                                <form name="regform" id="regForm">
+                                    <!--legend tag to write within the borderlines -->
+
+                                    <div class="tab">Names:
+                                        <p><input id="firstname" name="firstname" placeholder="First name..." class="form-control apples" oninput="this.className = ''"></p>
+                                        <p><input id="lastname" name="lastname" placeholder="Last name..." class="form-control apples" oninput="this.className = ''"></p>
+                                        <p><h2 class="allname" name="allname" id="allname" style="display: block;"></h2></p>
+                                      </div>
+                                      
+                                      <div class="tab">Contact Info:
+                                        <p><input  class="form-control apples" type="text" oninput="this.className =''"  name="Email" placeholder="Email" value="" 
+                                            title="Must contain your email" required></p>
+                                        <p><input placeholder="Phone..." class="form-control apples" oninput="this.className = ''"></p>
+                                      </div>
+                                      
+                                      <div class="tab">Login Info:
+                                        <p><input placeholder="Username..." class="form-control apples" id="usernameInput" oninput="this.className = ''" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}" 
+                                            title="Must contain your username" required></p>
+                                            <div id="user"></div>
+                                        <p><div class="input-group" id="pinvalid" style="display: flex;">
+                                            <input  class="form-control apples" type="password" id="myInput" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[.,?!#_]).{8,}" 
+                                            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+                                          
+                                            <!-- An element to toggle between password visibility -->
+                                            <span class="cbox">
+                                                <button class="checkbox" type="button" onclick="checkBox()">
+                                                    <i id="faeye" class="fa fa-eye-slash"></i>
+                                                </button><br>
+                                            </span>    
+                                        </div></p>
+                                      </div>
+                                      <div style="overflow:auto;">
+                                        <div style="float: left;">
+                                        <button class="wpress" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                                        </div>
+                                        <div style="float:right;">
+                                          <button class="wpress" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                                        </div>
+                                      </div>
+                                      
+                                      <!-- Circles which indicates the steps of the form: -->
+                                      <div style="text-align:center;margin-top:40px;">
+                                        <span class="step"></span>
+                                        <span class="step"></span>
+                                        <span class="step"></span>
+                                        <!--<span class="step"></span>-->
+                                      </div>
+                                </form>
+                                
+                            <p class="text-center mt-3 mb-0">Developed by <a href="https://ayocodex.site/security" class="nc-loop_circle-02-24" style=" color: gold !important;">AyoCodex</a></p>
+                        </fieldset>
+                                    <div class="form-group">
+                                        <!-- <div name="input-group" style="display: flex;">
+                                           <input  class="form-control apples" id="usernameInput" type="text" oninput="this.className =''"  name="username" placeholder="Email" value="" pattern="(?=.*\d)(?=.*[a-z]).{7,}" 
+                                            title="Must contain your email" required>
+                                            <input class="TEcheckbox" onclick="checkBoxOne()" type="checkbox" style="text-align: left;">-->
+                                              <!--<div id="message1">
+                                              <em class="ymfi">This must be filled!</em>
+                        
+                                           </div>--> 
+                                         </div>
+                                    </div><br>
+                                    <div class="form-group">
+                                        <!--<div class="input-group" style="display: flex;">
+                                            <input class="form-control apples" type="password" id="myInput" oninput="this.className =''" name="password" placeholder="Password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[.,?!#_]).{8,}" 
+                                            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>-->
+                                          
+                                            <!-- An element to toggle between password visibility -->
+                                            <!--<span class="cbox">
+                                                <button class="checkbox" type="button" onclick="checkBox()">
+                                                    <i id="faeye" class="fa fa-eye-slash"></i>
+                                                </button><br>
+                                            </span>    
+                                        </div>-->
+                                    </div>
+            
+            
+            
+                <!--<input class="wpress" id="wpress" onclick="register()" oninput="" type="submit" value="Log In">
+                <p id="prompt"></p>-->
+                
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+        <script src="js/index.js"></script>
+        <script src="js/newLog.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
