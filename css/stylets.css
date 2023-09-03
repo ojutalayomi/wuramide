@@ -2,7 +2,7 @@
     height: 800px;
 }*/
 body{
-    background:url(/wuramide/css/web-bg.jpg) fixed; 
+    background:url(/wuramide/img/web-bg.jpg) fixed; 
    background-size: cover;
    font-family:var(--bs-font-sans-serif);
 }
